@@ -16,11 +16,13 @@ a:hover {
 	text-decoration: none;	
 }
 
+/*
 div.banner {
-	/*background-color: black;*/
+	background-color: black;
 	float: left;
 	padding: 16px 8px;
 }
+*/
 
 div.content {
 	padding: 0 128px;
