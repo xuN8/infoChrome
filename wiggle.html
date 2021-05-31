@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>wiggle</title>		
+	</head>
+
+	<body>
+		<h1>Wiggle Text Generator</h1>
+		<form id="wiggle-form" onsubmit="update()" autocomplete="off">
+			<label for="text">Text:</label>
+			<input id="text" value="wiggle" oninput="update()"></input>
+			<br>
+
+			<label for="zag-length">Zig-zag length:</label>
+			<input id="zag-length" type="range" value="8" min="0" max="100" oninput="update()"></input>
+			<br>
+
+			<label for="repeat-count">Repeat count:</label>
+			<input id="repeat-count" type="range" value="20" min="1" max="100" oninput="update()"></input>
+			<br><br>
+
+
+			<!--<input type="submit"></input>-->
+			<input type="reset">	
+		</form>
+		<pre id="output"></pre>
+
+		<script>
+			function wiggleGenerate(text='wiggle', zagLength=8, repeatCount=20) {		
+				const space = " ";
+				var string = "";
+				
+				for (i = 0; i <= repeatCount; i++) {
+
+					numSpaces = Math.abs((i%zagLength)-(zagLength/2));
+					spaces = space.repeat(numSpaces);
+					string = string + "\n" + spaces + text;
+				};
+
+				const output = document.getElementById('output');
+				output.innerHTML = string;		
+				return false;
+			};
+
+			function update() {	
+				const text = document.getElementById('text').value;	
+				const zagLength = document.getElementById('zag-length').value;	
+				const repeatCount = document.getElementById('repeat-count').value;	
+				console.log(text, zagLength, repeatCount);
+				wiggleGenerate(text, zagLength, repeatCount);
+				return false;
+			};
+
+			wiggleGenerate();		// use the default output
+
+			const form = document.getElementById('wiggle-form');
+			form.onreset = function(){wiggleGenerate()};
+		</script>
+	</body>
+</html>
