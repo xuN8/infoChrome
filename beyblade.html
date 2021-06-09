@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>xuN8 | beyblade</title>
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+	</head>
+	<body>	
+		<!--
+		<div id="viewport"></div>
+		<div id="controls">
+			<form>
+				<label for="strength">strength</label>
+				<input id="strength" type="number" min="0" max="0.1" value="0.02" step="0.01"></input><br>
+
+				<label for="order">order</label>
+				<input id="order" type="number" min="-1" max="1" value="0" step="0.01"></input><br>
+				
+				<label for="spin">spin</label>
+				<input id="spin" type="number" min="-2" max="2" value="0.05" step="0.01"></input><br>
+				
+				<label for="mass">mass</label>
+				<input id="mass" type="number" min="0" max="10" value="1" step="0.1"></input>
+			</form>
+		</div>
+	-->
+
+		<p>Beyblade simulation using Matter.js.  Originally made using PhysicsJS but it wasn't being maintained so I transferred it.  Uses a modified version of Newtonian gravity to pull this off.</p>
+		<canvas id="canvas"></canvas>
+		<style type="text/css">
+
+			#viewport {			
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;			
+				position: absolute;
+				overflow: hidden;		  
+				background-size: cover;
+			}
+
+			#controls {
+				left: 0;
+				right: 0;
+				position: absolute;
+				z-index: 2;
+			}
+
+			input {
+				width: 50%;
+			}
+		</style>
+
+
+		<script src="libraries/matter.js"></script>
+		<script src="libraries/matter-attractors.js"></script>
+		<script src="scripts/matter_test.js"></script>
+		<!--	
+		<script src="libraries/physicsjs-full.js"></script>
+		<script src="scripts/beyblade_functions.js"></script>
+		<script src="scripts/beyblade_collision.js"></script>
+		<script src="scripts/beyblade_step.js"></script>		
+		<script src="scripts/beyblade_physics.js"></script>
+	-->
+	</body>
+</html>

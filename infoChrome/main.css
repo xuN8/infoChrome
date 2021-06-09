@@ -1,0 +1,192 @@
+.images {
+  margin-top: 200px;
+}
+
+.scratch {
+  margin-top: 20px;
+}
+
+.codeorg {
+  margin-top: 210px;
+}
+
+.codecademy {
+  margin-top: 140px;
+}
+
+.small {
+  max-width: 500px;
+  max-height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+section.container p {
+  font-size:15px
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300px;
+  scroll-behavior: auto;
+}
+
+output {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #00000067;
+  margin-bottom: 10px;
+}
+
+input {
+  color: black;
+  margin: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header p:hover {
+  color: rgb(0, 255, 170);
+}
+
+p.about:active {
+  color: rgb(0, 211, 140);
+}
+
+p.catalog:active {
+  color: rgb(0, 211, 140);
+}
+
+p.contact:active {
+  color: rgb(0, 211, 140);
+}
+
+
+
+
+header {
+  margin: 0;
+  padding: 10px 40px 10px 40px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  background-color: #f5f5f5;
+  z-index: 2;
+  
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 300;
+  margin: 0;
+  color: #25bda3;
+}
+
+header nav {
+ display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://cdn.osxdaily.com/wp-content/uploads/2012/06/mountains-france.jpeg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 5px 5px 20px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #25bda3;
+}
+
+.btn.btn-primary:hover {
+  color: #25bda3;
+  background-color: #ffffff;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}

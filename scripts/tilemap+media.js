@@ -4,7 +4,7 @@ const black = 'rgb(54,58,61)';
 const lava = 'rgba(255,60,0,0.4)';
 const teal = 'rgb(102,180,180)';
 //media
-var jumpSound = new Audio('media/whoosh.mp3');
+var jumpSound = new Audio('sounds/whoosh.mp3');
 //levels
 /*
 tile code:

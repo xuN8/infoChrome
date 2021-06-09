@@ -18,13 +18,15 @@ a:hover {
 }
 
 img {
-	object-fit: cover;
+	object-fit: contain;
 	margin: 0;
 	padding: 0;
 }
 
-iframe {
-    overflow: hidden;
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
 
 nav ul {
@@ -37,7 +39,7 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	padding: 0;
-	margin: 0 8px 0 0;
+	margin: 0 32px 0 0;
 	vertical-align: middle;
 }
 
@@ -46,6 +48,7 @@ nav ul li a {
 }
 
 nav ul li img {
+	object-fit: cover;
 	border-radius: 100%;
 	margin: 0 16px 0 0;
 }
@@ -75,7 +78,33 @@ nav ul li span {
 	display: inline;
 }
 
-div.content {
+#content {
 	margin: 0;
 	padding: 0 16px;
+}
+
+#social {
+
+}
+
+#social-links {
+	display: inline-block;
+	vertical-align: top;
+	width: 5%;
+}
+
+#social-links ul li {
+}
+
+#social-links ul li a img{
+}
+
+#avatar {
+	display: inline-block;
+	width: auto;
+}
+
+#avatar #pfp img {
+	object-fit: cover;
+	border-radius: 100%;
 }
