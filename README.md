@@ -6,3 +6,5 @@ git status
 git add .
 git commit -m "note"
 git push
+
+git push -f
