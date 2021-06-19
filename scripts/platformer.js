@@ -37,7 +37,7 @@ function init() {
         oy = innerWidth/2;
     }
     
-    maxDY = Math.round(canvas.width/40);  //terminal velocity
+    maxDY = Math.round(scale);  //terminal velocity
     maxDX = Math.round(canvas.width/100);
     console.log(maxDY);
     jumpHeight = canvas.width/55;
