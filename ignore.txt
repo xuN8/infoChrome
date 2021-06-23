@@ -1,0 +1,106 @@
+<!--
+	<h1 id="secret">
+		<span id="onhover">(╯°□°)╯︵ ┻━┻</span>
+		<span id="initial">┬─┬ ノ( ゜-゜ノ)</span>
+	</h1>	
+	<br>		
+	<h1 id="secret">
+		<span id="onhover">┻━┻︵ \(°□°)/ ︵ ┻━┻</span>
+		<span id="initial">┬─┬ ノ( ゜-゜ノ)</span>
+	</h1>
+	<br>
+	<h1 id="secret">
+		<span id="onhover">ノ┬─┬ノ ︵ ( \o°o)\</span>
+		<span id="initial">┬─┬ ノ( ゜-゜ノ)</span>
+	</h1>
+	<br>			
+	<br>
+-->
+
+<!--
+			<div id="avatar">
+				<div id="rbx">
+					<img alt="xuN8 Roblox 2017" src="https://tr.rbxcdn.com/7b6071931c1820c4b41fc3b5f1bb66d8/352/352/Avatar/Png" width="200" height="200"/>										
+					<img alt="xuN8 Roblox 2018" src="https://tr.rbxcdn.com/1d20ce87ff4983ce97c08965c1f8e4a3/352/352/Avatar/Png" width="200" height="200"/>
+					<img alt="xuN8 Roblox 2019" src="https://tr.rbxcdn.com/b394bb12dab634c70d410e1d5b8164e0/352/352/Avatar/Png" width="200" height="200"/>
+					<img alt="xuN8 Roblox 2020" src="https://tr.rbxcdn.com/9f9321b69530eb44bd851a82ed353a37/352/352/Avatar/Png" width="200" height="200"/>	
+				</div>	
+				<div id="pfp">
+					<img alt="xuN8 2017" src="./images/xun8(2017).jpg" width="200" height="200"/>
+					<img alt="xuN8 2018" src="./images/xun8(2018).png" width="200" height="200"/>
+					<img alt="xuN8 2020" src="./images/xun8(2020).png" width="200" height="200"/>
+				</div>
+				<div id="mc">		
+					<img alt="xuN8 Minecraft" src="./images/xun8_minecraft.png" width="200" height="200"/>
+				</div>					
+			</div>
+-->
+
+<!--
+	<h2>My Coding Journey: The Last Five Years</h2>
+
+	<h3>Codecademy Javascript</h3>
+	<p>			
+		The first language I learned was Javascript.  I had no idea what it was or what it was used for, but I loved it.  Practiced on and off since I didn't know how to apply it outside of Codecademy.
+	</p>
+
+	<h3>Arduino C++</h3>
+	<p>
+		CodingWithKids summer camp at AWS Elemental.  Learned about hardware components and how to program Arduino boards.  Made a robot with remote control, self driving, and line tracking functionality.
+	</p>
+
+	<h3>Code.org</h3>
+	<p>
+		Introduced to block coding at school.  Code.org has little puzzle problems for learning coding fundamentals, but at this point it was mostly review.
+	</p>
+
+	<h3>Scratch</h3>
+	<p>
+		Another block-based app from school, but this one is more of an open sandbox.  Made some pretty crazy projects on there outside of class.
+	</p>
+
+	<h3>MIT App Inventor</h3>
+	<p>
+		Probably my least favorite block coding app, but it was still fun to use.  Everything was asynchronus and event-based, which felt a little limiting sometimes.
+	</p>
+
+	<h3>Codecademy HTML/CSS/JS</h3>
+	<p>
+		Finally tried my hand at web development.  I found HTML very easy to learn, and made a simple website within a few days of learning.  This was around the time ChromeOS Linux came out, so I used VScode for this.
+	</p>
+
+	<h3>Codecademy Python 2</h3>
+	<p>
+		Had to learn Python eventually.  It was so different from Javascript I was gawking at how clean the syntax was.
+	</p>
+
+	<h3>Discord Bot Python</h3>
+	<p>
+		Because why not?  Finally got a proper PC after developing on a Chromebook for three years, you bet I was ready(Heroku wasn't downloading properly on Chrome Linux).  Asynchronus programming.  Modules.  HTTP requests.  Web scraping.  *cough* *cough* API request limits.  Boy that was a lot.  At least my bot can get weather, news, and nutrition facts now...
+	</p>
+
+	<h3>Roblox Lua</h3>
+	<p>
+		Here we go, spent an entire year just on this.  This was another thing the my Chromebook stopped me from doing sooner -_-.  Well, time to make Roblox games!  Right off the bat I had to do something hard. I'm looking at you, RocketLab.  Planet gravity, rocket builder, rocket stats, rocket controls, rocket UI, stage deploy, astronaut suits...I gave up.  I was working on this thing literally the entire day for months.  Drained, tired, hopless.
+	</p>
+	<p>
+		Well, time to do something super easy, a Roblox tycoon!  Yay!  Let's overthink the mechanics, reinvent the wheel, and add ridiculously ambitous features to it!  <small>yay?</small>  Well, at least it's coming together now.
+	</p>
+
+	<h3>Qubit by Qubit Python</h3>
+	<p>
+		Did I hear quantum computing?  What's that?  Another rabbit hole I should fall into?  Ok, let's do it.  Learned a bunch of college level math, quantum mechanics, IBM Qiskit library on Python, donwloaded a bunch of stuff I probably won't use ever again...Yeah, that was fun :)
+	</p>
+
+	<h3>Sololearn Python 3</h3>
+	<p>
+		<em>Pssst.</em> What? <em>About time you learned Python 3.</em> *Sigh* ok...
+	
+	<h3>CodeHS</h3>
+	<p>Let's learn Python 3 again, with tRaCy tHe TuRTle. Um, fine, I guess...</p>
+	
+	<h3>HTML/CSS/JS (again)</h3>
+	<p>		
+		<em>Psssssssssst.</em> What now? <em>Your HTML is rUsTY.</em> Go away, no one asked you >:(
+	</p>
+-->

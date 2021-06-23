@@ -1,10 +1,5 @@
-
 body {
-	background-color: #eef3f7;		/* Off White */
-	color:  #3c4349;				/* Gray */
-	font-family: Arial, Helvetica, sans-serif;		
-	margin: 0;
-	padding: 0;
+	font-family: Verdana, Helvetica, sans-serif;	
 }
 
 a {
@@ -17,89 +12,73 @@ a:hover {
 	text-decoration: none;		
 }
 
-img {
-	object-fit: contain;
-	vertical-align: middle;
-}
-
 ul {
 	list-style-type: none;
-	margin: 0 0 0 16px;
-	padding: 0;
+	padding-left: 8px;
 }
 
-li {
-	margin: 0 0 8px 0;
-}
-
-p {
-	display: inline-block;
-	margin: 0;
-	padding: 0;
+img {
+	border-radius: 4px;
 }
 
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 240px; /* Set the width of the sidebar */
+  width: 64px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #dbe6ee; /* Dark Off White */
-  color: #3c4349;		/* Gray */
+  background-color: rgba(0,0,0,0);/*#dbe6ee;  Dark Off White */
+  color: white;		/* #3c4349Gray */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+  padding-top: 256px;
+}
+
+.sidenav li {
+	display: block;
+	margin: 0 0 4px 0;
 }
 
 .main {
-  margin-left: 240px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
+	margin: 0 240px 0 240px;
+  /*margin-left: 240px;  Same as the width of the sidebar */
+  /*padding: 0px 10px;*/
 }
 
-#avatar {
-	display: inline-block;
-	width: auto;
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    z-index: 2;
+}
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
 }
 
-#avatar #pfp img {
-	object-fit: cover;
-	border-radius: 100%;
+div.row {
+    margin: 0 64px 0 64px;
 }
-
-
 
 /*
- On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-nav ul {
-	background: #3C4349;
-	list-style-type: none;
-	margin: 0;
-	padding: 8px 16px;
-}
-
-nav ul li {
-	display: inline-block;
-	padding: 0;
-	margin: 0 32px 0 0;
-	vertical-align: middle;
-}
-
-nav ul li a {
-	font-size: 20px;
-}
-
-nav ul li img {
-	object-fit: cover;
-	border-radius: 100%;
-	margin: 0 16px 0 0;
-}
-
-nav ul li span {
-	color: #6c7983;
+.jumbotron {
+	background-image: url("../images/Supermarket Tycoon Thumbnail.png");
+	background-size: cover;
+  height: 100%;
 }
 */
+
+p {
+	font-size: 1.4vw;
+	margin-bottom: 4px;
+}
+
+h3 {
+	font-size: 2vw;
+	margin-bottom: 4px;
+}
+
+a.navbar-brand img {
+	border-radius: 100%;
+}
